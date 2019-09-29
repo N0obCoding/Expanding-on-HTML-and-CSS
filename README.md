@@ -8,7 +8,7 @@
 # **Module 3:** Expanding on HTML and CSS
 This module aims to provide Noob Coders with a good understanding of HTML and CSS. The module guides a developer through the steps of building a simple static website, exploring the use of different HTML tags and styling techniques.
 
-When completing the module, Noob Coders are expected to be able to build a replica of the [sample website](https://github.com/N0obCoding/Expanding-on-HTML-and-CSS/assets/website) provided in this repo.
+When completing the module, Noob Coders are expected to be able to build a replica of the [sample website](https://github.com/N0obCoding/Expanding-on-HTML-and-CSS/tree/master/assets/website) provided in this repo.
 
 ### Pre-requisites
 * Estimated duration: **?? hours**.
