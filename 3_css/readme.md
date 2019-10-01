@@ -6,15 +6,17 @@ Cascading Style Sheets mainly referred to as CSS, is a simple design language in
 
 ## CSS Syntax
 
+#### Definition
+
 CSS files are denoted with the extension `.css` and usually, their name refers to the webpage they are dealing with. For example `about.css` would most likely contain all the styles you want to apply to your about page.
 
 CSS has a pretty and concise syntax
 
-1) The rules need to be wrap with `{}`
+1) The rules need to be wrap within `{}`
 
-2) They follow the pattern: `property: value;` (where `;` is only required for when adding multiple rules inside the same `{}`)
+2) They follow the pattern: `property: value;` (where `;` is only required for when adding multiple rules)
 
-For example if we have a rule that only applies color to text, there is no need to append the `;` at the end of the line.
+For example if we have a rule that only applies color to a given text, there is no need to append the `;` at the end of the line.
 
           .text-gray {
              color: #323232
@@ -29,18 +31,25 @@ Otherwise...
              text-decoration: none;
           }
 
-In the previous examples. You can see that I want my `main-wrapper` to have a text color of #323232 which is like a medium darker gray, a font size of 16px so the user can understand what is reading without much effort with their eyes, a line-height which is the space that separates text vertically between lines and text-decoration set to `none` for the text to not have any extra styles like underlines, upper lines, etc.
+Following along you can see in the previous example that I want my `main-wrapper` to have
 
-You could write css like the following: 
+- A color of #323232 which is like a medium darker gray
+- font size of 16px
+- line-height (which is the space that separates text vertically between lines) and helps with reading comprehension.
+- And text-decoration set to `none` (to remove extra styles like underlines, upper lines, etc.)
 
-          .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; }
+This rules only applies to the `.main-wrapper`, which is a class selector (we'll be explaining what class selectors are further more in the next section) for now jus remember how is called.
 
-But is considered a bad practice 'cause it is not very human-readable. That's why is <strong> highly recommended </strong> to write CSS in the following format like I did with the first example. Remember:
+#### Formating
 
-          // Badly formatted CSS
-          .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; }
+There is two ways of writting CSS 
 
-         // Nicely formatted CSS
+- inline: That is considered a bad practice 'cause it is not very human-readable.
+
+          .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; } 
+
+- block: <strong> Highly recommended </strong> for human readability
+
           .main-wrapper {
              color: #323232;
              font-size: 16px;
@@ -48,7 +57,9 @@ But is considered a bad practice 'cause it is not very human-readable. That's wh
              text-decoration: none;
           }
 
-You can write comments in CSS, which are intended for better code comprehension (that are not executed by the computer) in the following manner:
+#### Comments
+
+Comments are intended for better code comprehension (and this are not executed by the computer) and are written in CSS in the following manner:
 
          // This is an inline and short comment
           .main-wrapper {
@@ -69,8 +80,6 @@ You can write comments in CSS, which are intended for better code comprehension 
              line-height: 1.6;
              text-decoration: none;
           }
-
-You may ask what does it mean the `.` in the `.main-wrapper` more into that in the following section
 
 ## CSS basic selectors 
     TODO
