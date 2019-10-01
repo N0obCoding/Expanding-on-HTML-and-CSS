@@ -59,7 +59,7 @@ There is two ways of writting CSS
 
 #### Comments
 
-Comments are intended for better code comprehension (and this are not executed by the computer) and are written in CSS in the following manner:
+Comments are intended for better code comprehension, this are pieces of the code that are not executed by the computer, and in CSS are written in the following manner:
 
          // This is an inline and short comment
           .main-wrapper {
