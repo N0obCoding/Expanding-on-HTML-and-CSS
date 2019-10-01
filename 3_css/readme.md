@@ -8,7 +8,7 @@ Cascading Style Sheets mainly referred to as CSS, is a simple design language in
 
 CSS files are denoted with the extension `.css` and usually, their name refers to the webpage they are dealing with. For example `about.css` would most likely contain all the styles you want to apply to your about page.
 
-The CSS syntax is a pretty concise one
+CSS has a pretty and concise syntax
 
 1) The rules need to be wrap with `{}`
 
