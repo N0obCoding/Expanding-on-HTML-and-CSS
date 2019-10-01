@@ -36,9 +36,9 @@ Following along you can see in the previous example that I want my `main-wrapper
 - A color of #323232 which is like a medium darker gray
 - font size of 16px
 - line-height (which is the space that separates text vertically between lines) and helps with reading comprehension.
-- And text-decoration set to `none` (to remove extra styles like underlines, upper lines, etc.)
+- And text-decoration set to `none` (to remove any extra styles like underlines, upper lines, etc.)
 
-This rules only applies to the `.main-wrapper`, which is a class selector (we'll be explaining what class selectors are further more in the next section) for now jus remember how is called.
+This rules only applies to the `.main-wrapper`, which is a class selector (we'll be explaining what class selectors are further more in the next section)
 
 #### Formating
 
