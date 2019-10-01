@@ -6,7 +6,21 @@ Cascading Style Sheets mainly referred to as CSS, is a simple design language in
 
 ## CSS Syntax
 
-CSS files are denoted with the extension `.css` and usually, their name refers to the webpage they are dealing with for example `about.css` would most likely contain all the styles you want to apply to your about page. CSS syntax is a pretty concise one, in CSS is necessary to wrap with `{}` the rules you want to apply to a given element and the rules have the following syntax: `property: value;` the `;` is only required for adding other rules in the next line otherwise you can do it without `;` (i.e: `property: value`).
+CSS files are denoted with the extension `.css` and usually, their name refers to the webpage they are dealing with. For example `about.css` would most likely contain all the styles you want to apply to your about page.
+
+The CSS syntax is a pretty concise one
+
+1) The rules need to be wrap with `{}`
+
+2) They follow the pattern: `property: value;` (where `;` is only required for when adding multiple rules inside the same `{}`)
+
+For example if we have a rule that only applies color to text, there is no need to append the `;` at the end of the line.
+
+          .text-gray {
+             color: #323232
+          }
+
+Otherwise...
 
           .main-wrapper {
              color: #323232;
