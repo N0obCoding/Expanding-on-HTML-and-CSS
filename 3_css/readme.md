@@ -21,7 +21,7 @@ You could write css like the following:
 
           .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; }
 
-But is considered a bad practice 'cause it is not very human-readable. That's why is <strong> highly recommended </strong> to write CSS in the following format I did with the first example. Remember:
+But is considered a bad practice 'cause it is not very human-readable. That's why is <strong> highly recommended </strong> to write CSS in the following format like I did with the first example. Remember:
 
           // Badly formatted CSS
           .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; }
