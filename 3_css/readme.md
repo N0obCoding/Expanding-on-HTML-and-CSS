@@ -18,7 +18,7 @@ CSS has a pretty and concise syntax
 
 For example if we have a rule that only applies color to a given text, there is no need to append the `;` at the end of the line.
 
-```CSS
+``` CSS
 .text-gray {
     color: #323232
 }
@@ -48,11 +48,11 @@ This rules only applies to the `.main-wrapper`, which is a class selector (we'll
 There is two ways of writting CSS 
 
 - inline: That is considered a bad practice 'cause it is not very human-readable.
-```CSS
+``` CSS
 .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; } 
 ```
 - block: <strong> Highly recommended </strong> for human readability
-```
+``` CSS
 .main-wrapper {
      color: #323232;
      font-size: 16px;
@@ -64,7 +64,7 @@ There is two ways of writting CSS
 
 Comments are intended for better code comprehension, this are pieces of the code that are not executed by the computer, and in CSS are written in the following manner:
 
-```CSS
+``` CSS
 / This is an inline and short comment
 .main-wrapper {
    color: #323232;
