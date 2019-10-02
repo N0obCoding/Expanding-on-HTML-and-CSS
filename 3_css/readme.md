@@ -88,7 +88,7 @@ Comments are intended for better code comprehension, this are pieces of the code
 ## CSS basic selectors 
 Selectors lets you modify individual elements in our HTML file. Here are some useful selector you should know:
     
-- <strong>Type selector </strong>lets us modify the properties of the element we are specifing. In the following code we are selecting all the 'h3' tags in our file and modifying its color to be red.
+- <strong>Type selector </strong>lets us modify the properties of the element we are specifying. In the following code we are selecting all the 'h3' tags in our file and modifying its color to be red.
 ``` CSS
 h3 {
     color: red;
