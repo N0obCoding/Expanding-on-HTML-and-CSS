@@ -18,18 +18,21 @@ CSS has a pretty and concise syntax
 
 For example if we have a rule that only applies color to a given text, there is no need to append the `;` at the end of the line.
 
-          .text-gray {
-             color: #323232
-          }
-
+```CSS
+.text-gray {
+    color: #323232
+}
+```
 Otherwise...
 
-          .main-wrapper {
-             color: #323232;
-             font-size: 16px;
-             line-height: 1.6;
-             text-decoration: none;
-          }
+``` CSS
+.main-wrapper {
+     color: #323232;
+     font-size: 16px;
+     line-height: 1.6;
+     text-decoration: none;
+}
+```
 
 Following along you can see in the previous example that I want my `main-wrapper` to have
 
@@ -45,42 +48,43 @@ This rules only applies to the `.main-wrapper`, which is a class selector (we'll
 There is two ways of writting CSS 
 
 - inline: That is considered a bad practice 'cause it is not very human-readable.
-
-          .main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; } 
-
+```CSS
+.main-wrapper { color: #323232; font-size: 16px; line-height: 1.6; text-decoration: none; } 
+```
 - block: <strong> Highly recommended </strong> for human readability
-
-          .main-wrapper {
-             color: #323232;
-             font-size: 16px;
-             line-height: 1.6;
-             text-decoration: none;
-          }
-
+```
+.main-wrapper {
+     color: #323232;
+     font-size: 16px;
+     line-height: 1.6;
+     text-decoration: none;
+}
+```
 #### Comments
 
 Comments are intended for better code comprehension, this are pieces of the code that are not executed by the computer, and in CSS are written in the following manner:
 
-         // This is an inline and short comment
-          .main-wrapper {
-             color: #323232;
-             font-size: 16px;
-             line-height: 1.6;
-             text-decoration: none;
-          }
+```CSS
+/ This is an inline and short comment
+.main-wrapper {
+   color: #323232;
+   font-size: 16px;
+   line-height: 1.6;
+   text-decoration: none;
+}
 
-          /* --------------------------------------------------
-          ** This is a huge and extensive comment that
-          ** requires many lines to be able to be read properly.
-          ** --------------------------------------------------
-          */
-          .main-wrapper {
-             color: #323232;
-             font-size: 16px;
-             line-height: 1.6;
-             text-decoration: none;
-          }
-
+/* --------------------------------------------------
+** This is a huge and extensive comment that
+** requires many lines to be able to be read properly.
+** --------------------------------------------------
+*/
+.main-wrapper {
+   color: #323232;
+   font-size: 16px;
+   line-height: 1.6;
+   text-decoration: none;
+}
+```
 ## CSS basic selectors 
     TODO
 ### A note about specificity
