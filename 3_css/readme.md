@@ -93,7 +93,52 @@ Comments are intended for better code comprehension, this are pieces of the code
     2) ID selector: Selects HTML element using their id attribute. Usage: Hash(#) followed by id.
     3) Class selector: Selects HTML element using their class name. Usage: Period(.) followed by class name.
     4) Universal selector: Selects all HTML elements in the page. Usage: Asterisk(*) is used as universal selector
+    
+- <strong>Type selector </strong>lets us modify the properties of the element we are specifying. In the following code we are selecting all the 'h3' tags in our file and modifying its color to be red.
+``` CSS
+h3 {
+    color: red;
+}
+```
+- <strong>.class selector</strong> matches all elements which belongs to a particular class attribute. For example, let's say we have an specific text, that only displays "Hello N0obCoding!", which belongs to the "greetings" class. We want to modify this single element without affecting the rest. Notice that a .class selector, is preceded by a dot.
+
+``` HTML
+<h3 class="greetings">
+	Hello N0obCoding!
+</h3>
+
+<style>
+.greetings {
+	color: green; /* <- our awesome text decoration */
+}
+</style>
+```
+You can notice that we are using the ```<style>``` here. This tag let us write CSS code inside our HTML file! Is not that cool?
+
+- <strong>#id selector</strong> since we can assign identifiers (id) to an HTML element, we can then modify its properties by referencing this unique identifier in our CSS code. This can be done by the following:
+``` HTML
+<div id="uniqueid">I have an identifier!</div> 
+
+<div>I don't have an identifier</div>
+
+<style>
+#uniqueid{
+    background-color: #FFA500;
+    padding: 20px;
+}
+</style>
+```
+<strong>* Universal selector</strong> What if we want that all of our page have a specific background color or font? CSS allows us to do this by using its universal selector '*' , where any of our elements will have the property we're specifying. In the following example, we are selecting all elements, and set their background color to aqua.
+``` CSS
+* {    
+	background-color: #00FFFF;   
+}
+```
+No one told us that CSS selectors could be so easy! 
 ### A note about specificity
-    TODO
+    Specificity of CSS elements determine which style rule is applied to an element. That is if multiple CSS selectors
+    are targeting the same HTML element, the highest specific selector will take effect.
+    
+    Specificity order: ID selector > Class selector > Element selector
 ## The Box Model
     TODO
