@@ -18,9 +18,49 @@
 
 > HTML elements are the building blocks of HTML page. [Wikipedia](https://en.wikipedia.org/wiki/HTML)
 
+>
+
+
     TODO
 ## The anatomy of the HTML Document
-    TODO
+> An HTML document is composed of several different elements arranged in the following way:
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
+> the different parts of this document are:
+>> 1. ```<!DOCTYPE html>``` : The doctype. Initially, doctypes were links to a set of rules which decided whether the HTML qualified as a good page. Nowadays, instead of using several different doctypes we just use <!DOCTYPE html> which is the shortest string of characters that counts as a valid doctype to make our page work right.   
+
+>> 2. ```<html></html>```: The <html> element. This element wraps all the content on the entire page.   
+
+>> 3. ```<head></head>```: The <head> element. This element acts as a container for things which you don't want to show to the viewer.   This includes things like keywords, a page description that you want to appear in search results, links to CSS or Js files, character set declarations etc.  
+
+>> 4. ```<meta charset="utf-8">```: This element sets the character set of your document to UTF-8, which includes most characters from majority of  the human written languages.
+ 
+>> 5. ```<title></title>```: The <title> element. This sets the title of your page, which is the title that appears in the browser tab on opening the page, and is used to describe the page when you bookmark it.  
+
+>> 6. ```<body></body>```: The <body> element. This contains all the content that you want to show the viewers when they visit your page, which can be text, images, gifs, videos etc.  
+ 
+## Whitespace in HTML
+> in HTML the use of whitespace is only to improve code readability. i.e. the HTML parser reduces any amount of whitespace to a single whitespace. for example,
+>>
+ ```
+ <p> no extra whitespace <\p>
+ 
+ <p> lots 
+   of   extra   
+   whitespace    <\p>
+ ```
+> will be rendered in the same way. 
+
 ## Semantic HTML
 > Semantic tags in HTML are used to provide information about meaning of the web page to the browser rather than just presentaion. For example, the tags \<div\> and \<span\> are non semantic tags. They only define structure of the web page. But tags like \<table\> and \<article\> clearly define its content.
 ### Why should we use it?
