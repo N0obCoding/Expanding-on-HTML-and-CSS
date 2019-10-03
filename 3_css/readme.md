@@ -97,6 +97,6 @@ Comments are intended for better code comprehension, this are pieces of the code
     Specificity of CSS elements determine which style rule is applied to an element. That is if multiple CSS selectors
     are targeting the same HTML element, the highest specific selector will take effect.
     
-    Specificity order: id selector>class selector>Element selector
+    Specificity order: ID selector > Class selector > Element selector
 ## The Box Model
     TODO
