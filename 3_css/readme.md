@@ -86,7 +86,13 @@ Comments are intended for better code comprehension, this are pieces of the code
 }
 ```
 ## CSS basic selectors 
-    TODO
+    CSS selectors are used to select the HTML element that we want to style.
+    Basic selectors in CSS are the following:
+    
+    1) Element selector: Selects HTML element using their name.
+    2) ID selector: Selects HTML element using their id attribute. Usage: Hash(#) followed by id.
+    3) Class selector: Selects HTML element using their class name. Usage: Period(.) followed by class name.
+    4) Universal selector: Selects all HTML elements in the page. Usage: Asterisk(*) is used as universal selector
 ### A note about specificity
     TODO
 ## The Box Model
