@@ -86,7 +86,13 @@ Comments are intended for better code comprehension, this are pieces of the code
 }
 ```
 ## CSS basic selectors 
-Selectors lets you modify individual elements in our HTML file. Here are some useful selector you should know:
+    CSS selectors are used to select the HTML element that we want to style.
+    Basic selectors in CSS are the following:
+    
+    1) Element selector: Selects HTML element using their name.
+    2) ID selector: Selects HTML element using their id attribute. Usage: Hash(#) followed by id.
+    3) Class selector: Selects HTML element using their class name. Usage: Period(.) followed by class name.
+    4) Universal selector: Selects all HTML elements in the page. Usage: Asterisk(*) is used as universal selector
     
 - <strong>Type selector </strong>lets us modify the properties of the element we are specifying. In the following code we are selecting all the 'h3' tags in our file and modifying its color to be red.
 ``` CSS
