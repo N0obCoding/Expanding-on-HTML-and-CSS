@@ -94,6 +94,9 @@ Comments are intended for better code comprehension, this are pieces of the code
     3) Class selector: Selects HTML element using their class name. Usage: Period(.) followed by class name.
     4) Universal selector: Selects all HTML elements in the page. Usage: Asterisk(*) is used as universal selector
 ### A note about specificity
-    TODO
+    >Specificity of CSS elements determine which style rule is applied to an element. That is if multiple CSS selectors
+    are targeting the same HTML element, the highest specific selector will take effect.
+    
+    Specificity order: id selector>class selector>Element selector
 ## The Box Model
     TODO
