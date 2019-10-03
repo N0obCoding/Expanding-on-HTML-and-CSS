@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,500,700,900&display=swap');
+
+body,
+hmtl {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.6;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a,
+li,
+p {
+	margin: 0;
+	color: #000;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.fixed {
+	position: fixed;
+}
+.z-index1 {
+  z-index: 1;
+}
+
+.top {
+	top: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-wrapper {
+	width: 100%;
+  min-height: 100vh;
+}
+
+hr.center-hr {
+	width: 80vw;
+	margin: 0 10%;
+}
+
+#main-navigation {
+	width: 100vw;
+  padding: 2rem;
+  background: white;
+	border-bottom: 1px solid rgb(166, 170, 172);
+}
+
+.links-wrapper {
+	display: inline-block;
+	width: fit-content;
+	margin: 0 35vw;
+}
+
+.links-wrapper.center {
+	text-align: center;
+}
+
+.links-wrapper .link {
+	display: inline-block;
+	font-size: 20px;
+  padding: 1rem;
+  cursor: pointer;
+	margin-right: 1.2rem;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+	padding: 0 1.2rem;
+}
+
+main {
+  padding-top: 5rem;
+}
+section {
+	padding: 2rem;
+	margin: 2rem 12rem;
+}
+
+footer .links-wrapper {
+	margin: 0;
+}
+
+.flo-right {
+	float: right;
+}
+
+.flo-left {
+	float: left;
+}
+
+.img {
+	shape-outside: margin-box;
+	object-fit: contain;
+	max-height: 35rem;
+}
+
+.img.one {
+	margin: .4rem 2rem 1rem 1.4rem;
+}
+
+.img.two {
+	margin: .5rem 1.4rem 1rem 2rem;
+}
+
+.contact-form {
+	width: 50vw;
+	padding: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+	margin: 1rem 11vw 1rem 11vw;
+	border: 1px solid rgb(166, 170, 172);
+}
+
+.contact-form:hover {
+	box-shadow: 0px 0px 4px 0px #ccc;
+}
+
+.form-field {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.input {
+	width: 100%;
+	padding: 1rem;
+	font-size: 15px;
+  resize: vertical;
+  border-radius: 4px;
+	border: 1px solid #cddd;
+	color: rgb(105, 105, 105);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input:hover {
+	border-color: rgb(166, 170, 172);
+}
+
+.input-label {
+	display: block;
+	margin-bottom: .6rem;
+}
+
+.row .form-field {
+	display: inline-block;
+	width: 48%;
+}
+.row .form-field:last-child {
+	margin-left: 1rem;
+}
+
+button[type="submit"] {
+	width: 12rem;
+	height: 2rem;
+	background: white;
+	border: 1px solid rgba(136, 132, 132, 0.8);
+}
+
+button[type="submit"]:hover {
+	cursor: pointer;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.title {
+	font-size: 24px;
+	line-height: 1.8;
+	font-weight: bold;
+	margin-bottom: 5rem;
+}
