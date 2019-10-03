@@ -6,9 +6,10 @@ HTML consists of several *elements* which are used to modify different parts of 
 
 **note:** in empty elements, the end tag is not allowed. For example, to insert a single line break we use the <br> tag which is an empty tag and hence is not followed by a ending tag.
 
-We can also add comments to our code. HTML comments are visible to anyone that views the source code, but are not displayed in the browser. They are useful to make the code more concise and easier to understand. An HTML comment begins with ```<!–– and closes with ––>```.
+We can also add comments to our code. HTML comments are visible to anyone that views the source code, but are not displayed in the browser. They are useful to make the code more concise and easier to understand. An HTML comment begins with ```<!––``` and closes with ```––>```.
 consider the line "What is HTML?"
 If we wanted this line to be displayed in the browser by itself we could specify that it is a para by enclosing in the paragraph tags. 
+
 >``` <p> What is HTML? <\p> ```
     
 ## The anatomy of the HTML Element
