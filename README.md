@@ -1,4 +1,5 @@
 #  Noob Coding
+![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 
 <p align="center">
   <img src="https://github.com/N0obCoding/Courses/blob/master/assets/NoobCoding-500x175.png?raw=true" width="200">
@@ -58,3 +59,6 @@ Open a pull request for any of the following
 * Creating new course content
 * Add new and interesting exercises
 
+### License
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
