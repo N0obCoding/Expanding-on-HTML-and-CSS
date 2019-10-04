@@ -12,13 +12,8 @@ If we wanted this line to be displayed in the browser by itself we could specify
 
 ``` <p> What is HTML? <\p> ```
     
-## The anatomy of the HTML Element
-
-HTML elements are the building blocks of HTML page. [Wikipedia](https://en.wikipedia.org/wiki/HTML)
-
-
-    TODO
 ## The anatomy of the HTML Document
+HTML elements are the building blocks of HTML page. [Wikipedia](https://en.wikipedia.org/wiki/HTML)
 > An HTML document is composed of several different elements arranged in the following way:
 ```
 <!DOCTYPE html>
@@ -38,13 +33,16 @@ HTML elements are the building blocks of HTML page. [Wikipedia](https://en.wikip
 
 2. `<html></html>`: The `<html>` element. This element wraps all the content on the entire page.   
 
-3. `<head></head>`: The `<head>` element. This element acts as a container for things which you don't want to show to the viewer.   This includes things like keywords, a page description that you want to appear in search results, links to CSS or Js files, character set declarations etc.  
-4. `<meta charset="utf-8">`: This element sets the character set of your document to UTF-8, which includes most characters from majority of  the human written languages.
+3. `<head></head>`: The `<head>` element. This element acts as a container for things which you don't want to show to the viewer. This includes things like keywords, a page description that you want to appear in search results, links to CSS or Javascript files, character set declarations, etc.
+
+4. `<meta charset="utf-8">`: This element sets the character set of your document to UTF-8, which includes most characters from majority of the human written languages.
+
 5. `<title></title>`: The `<title>` element. This sets the title of your page, which is the title that appears in the browser tab on opening the page, and is used to describe the page when you bookmark it.
+
 6. `<body></body>`: The <body> element. This contains all the content that you want to show the viewers when they visit your page, which can be text, images, gifs, videos etc.  
 
 ## Whitespace in HTML
-In HTML the use of whitespace is only to improve code readability. i.e. the HTML parser reduces any amount of whitespace to a single whitespace. The following example Will be rendered in the same way.
+In HTML the use of whitespace is only to improve code readability. i.e. the HTML parser reduces any amount of whitespace to a single whitespace. In the following example, both paragraphs will be rendered the same way.
 
  ```
  <p> no extra whitespace <\p>
@@ -65,4 +63,8 @@ Semantic tags make the code more readable and easier to maintain. It also improv
 ### Accessibility from day one!
     TODO
 ## Consuming external resources through links
-    TODO
+In HTML, we can access external web pages using the anchor tag. The anchor tag is denoted by `<a>`
+```
+<a href="https://github.com">Clicking me will open the github page</a>
+```
+The `href` attribute refers to Hypertext reference and may contain like to an external web page or an internal section in the current page as its value. The `<a>` tag can enclose any other tag and is capable of converting it into a link. 
