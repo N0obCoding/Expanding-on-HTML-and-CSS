@@ -68,3 +68,6 @@ In HTML, we can access external web pages using the anchor tag. The anchor tag i
 <a href="https://github.com">Clicking me will open the github page</a>
 ```
 The `href` attribute refers to Hypertext reference and may contain like to an external web page or an internal section in the current page as its value. The `<a>` tag can enclose any other tag and is capable of converting it into a link. 
+
+---
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
