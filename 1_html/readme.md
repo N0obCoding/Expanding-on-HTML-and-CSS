@@ -63,7 +63,9 @@ Semantic tags make the code more readable and easier to maintain. It also improv
 ### Accessibility from day one!
     TODO
 ## Consuming external resources through links
-In HTML, we can access external web pages using the anchor tag. The anchor tag is denoted by `<a>`
+The HTML External Resource Link element (<link>) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things. [Mozilla Developers](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
+
+We can also access external web pages using the anchor tag. The anchor tag is denoted by `<a>`
 ```
 <a href="https://github.com">Clicking me will open the github page</a>
 ```
@@ -71,3 +73,4 @@ The `href` attribute refers to Hypertext reference and may contain like to an ex
 
 ---
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+
