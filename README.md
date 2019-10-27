@@ -1,4 +1,4 @@
-#  Noob Coding
+﻿#  Noob Coding
 ![CC BY-SA 4.0 International](https://licensebuttons.net/l/by-sa/3.0/80x15.png)
 
 <p align="center">
@@ -20,7 +20,7 @@ When completing the module, Noob Coders are expected to be able to build a repli
 * HTML
     * The anatomy of the HTML Element
     * The anatomy of the HTML Document
-    * Semantic HTMl
+    * Semantic HTML
         * Why should we use it?
         * Accessibility from day one!
     * Consuming external resources through links
@@ -39,13 +39,13 @@ When completing the module, Noob Coders are expected to be able to build a repli
 # Contributing content and Plagiarism
 Please be mindful with the content you include. If you quote or use content created by someone else, always give credit to the original author and make sure that you have their permission to share their content.
 
-Contributions that copy commercial courses, or that fail to reference to the original source will be removed or declined.
+Contributions that copy commercial courses, or that fail to refer to the original source will be removed or declined.
 
 **If you are an author, and you believe this course contains plagiarized content, please open a new issue [here](https://github.com/N0obCoding/Expanding-on-HTML-and-CSS/issues/new).**
 
 # Hacktoberfest
 
-[Hacktoberfest®](https://hacktoberfest.digitalocean.com/) is on! You can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to participate!
+[Hacktoberfest®](https://hacktoberfest.digitalocean.com/) is on! You can help drive the growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to participate!
 
 ### Get involved
 
